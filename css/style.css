@@ -1,0 +1,300 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700,700italic&display=swap&subset=cyrillic-ext");
+/* font-family: 'Caveat', cursive; */
+@import url("https://fonts.googleapis.com/css?family=Caveat:regular,700&display=swap&subset=cyrillic-ext");
+/* font-family: 'Cormorant Infant', serif; */
+@font-face {
+	font-family: "VeryBerryPro";
+	src: url("../fonts/VeryBerryPro-Regular.woff2") format("woff2"),
+		url("../fonts/VeryBerryPro-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Pilot";
+	src: url("../fonts/Pilot-Bold.woff2") format("woff2"), url("../fonts/Pilot-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Pilot";
+	src: url("../fonts/Pilot-LightItalic.woff2") format("woff2"), url("../fonts/Pilot-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+/* ------------------------- */
+
+body {
+	text-indent: 30px;
+}
+body a {
+	text-transform: uppercase;
+	font-family: "Caveat", cursive;
+	font-weight: 700;
+	font-style: italic;
+}
+h1 {
+	font-family: "VeryBerryPro";
+	font-size: 60px;
+	font-style: italic;
+	font-weight: 900;
+	color: blue;
+	text-align: center;
+	text-decoration: blink;
+	text-shadow: -3px -3px 1px skyblue;
+	letter-spacing: 5px;
+}
+header p,
+footer p {
+	font-family: "VeryBerryPro";
+	font-weight: 900;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+h2 {
+	font-family: "VeryBerryPro";
+	font-size: 60px;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 700;
+	color: fuchsia;
+	text-align: center;
+	text-decoration: pink;
+	text-shadow: -2px -2px 1px black;
+	letter-spacing: 4px;
+}
+
+nav h2 {
+	font-size: 50px;
+	color: black;
+	text-shadow: -2px -2px 2px greenyellow;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: left;
+}
+nav a,
+nav li {
+	font-family: "Pilot";
+	font-size: 20px;
+	color: red;
+	text-shadow: 1px 1px 1px black;
+	line-height: 30px;
+}
+nav a {
+	text-decoration: underline;
+}
+
+.ti .text-color,
+div .text {
+	font-family: "Cormorant Infant", serif;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+	text-align: justify;
+	text-indent: 30px;
+}
+
+p a {
+	text-transform: uppercase;
+	color: yellowgreen;
+	text-decoration: underline;
+}
+.list li {
+	font-family: "VeryBerryPro";
+	font-size: 36px;
+	color: black;
+	text-shadow: 1px 0px 0px greenyellow;
+	text-align: left;
+	font-weight: 100;
+}
+.list .img,
+li .img {
+	line-height: 200px;
+	text-align: center;
+}
+.text .mean {
+	font-family: "Caveat", cursive;
+	color: springgreen;
+	font-style: oblique;
+	font-size: 24px;
+	word-spacing: 10px;
+}
+.list .list3 {
+	font-family: "Cormorant Infant", serif;
+}
+.vid {
+	font-family: "VeryBerryPro";
+	color: red;
+	font-style: oblique;
+	font-size: 48px;
+	text-shadow: 2px 2px 2px black;
+}
+.list6 li,
+.lis li,
+.lis1 li {
+	font-family: "Caveat", cursive;
+	color: black;
+	font-size: 22px;
+	font-weight: 700;
+}
+.ti .list {
+	font-family: "Cormorant Infant", serif;
+	font-size: 38px;
+	text-align: left;
+	font-weight: 900;
+	color: aqua;
+	text-shadow: 1px 1px 1px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 45px;
+	font-style: oblique;
+}
+
+h3 {
+	font-size: 40px;
+	color: red;
+	text-shadow: -2px -2px 2px black;
+	font-style: oblique;
+	font-weight: 600;
+	text-align: left;
+	letter-spacing: 3px;
+}
+
+.ti .list4 {
+	font-family: "Caveat", cursive;
+	font-weight: 700;
+	font-size: 30px;
+	color: violet;
+	text-shadow: -1px -1px 1px black;
+}
+.list6 .list2 {
+	font-size: 24px;
+	text-align: left;
+	font-weight: 900;
+	color: fuchsia;
+	text-shadow: 1px 2px 2px violet;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 25px;
+	font-style: oblique;
+	word-spacing: 5px;
+}
+.lis .list {
+	font-family: "VeryBerryPro";
+	font-size: 38px;
+	text-align: left;
+	font-weight: 900;
+	color: yellow;
+	text-shadow: 2px 4px 2px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 25px;
+	font-style: oblique;
+	word-spacing: 5px;
+}
+
+.lis .list2 {
+	font-family: "Caveat", cursive;
+	font-size: 28px;
+	text-align: left;
+	font-weight: 900;
+	color: greenyellow;
+	text-shadow: 2px 1px 2px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 25px;
+	font-style: oblique;
+	word-spacing: 5px;
+}
+.lis .mean {
+	font-family: "Caveat", cursive;
+	font-size: 28px;
+	text-align: left;
+	font-weight: 900;
+	color: fuchsia;
+	text-shadow: 2px 1px 2px black;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 25px;
+	font-style: oblique;
+	word-spacing: 5px;
+}
+.lis .list3 {
+	font-family: "Bonheur Royale", cursive;
+	font-family: "Caveat", cursive;
+	font-size: 28px;
+	text-align: left;
+	font-weight: 900;
+	color: red;
+	text-shadow: 2px 1px 2px orangered;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 25px;
+	font-style: oblique;
+	word-spacing: 5px;
+}
+h4 {
+	font-family: "VeryBerryPro";
+	font-size: 40px;
+	text-align: center;
+	font-weight: 900;
+	color: violet;
+	text-shadow: -2px -2px 2px black;
+	text-transform: uppercase;
+}
+.ss {
+	text-align: right;
+}
+.ss a {
+	font-family: "VeryBerryPro";
+	font-size: 30px;
+	font-weight: 900;
+	color: fuchsia;
+	text-shadow: -2px -2px 2px black;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
